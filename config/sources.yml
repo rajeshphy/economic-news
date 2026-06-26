@@ -1,0 +1,96 @@
+settings:
+  india_limit: 52
+  world_limit: 32
+
+  final_points_total: 5
+  max_groups_per_section: 10
+  min_group_score: 3
+
+  require_ist_today: true
+  max_age_hours: 30
+  allow_unknown_dates: false
+
+  india_keywords: >-
+    india,indian,nifty,sensex,nse,bse,rbi,sebi,rupee,inflation,gdp,
+    fiscal deficit,budget,tax,gst,banking,psu bank,private bank,
+    fii,dii,mutual funds,earnings,ipo,crude oil,bond yield,repo rate,
+    monetary policy
+
+  world_keywords: >-
+    federal reserve,fed,us markets,dow,nasdaq,s&p 500,treasury yields,
+    crude oil,brent,geopolitics,china,europe,global markets,dollar index,
+    inflation,interest rates,bank of japan,ecb
+
+  economics_topic_keywords: >-
+    market,markets,nifty,sensex,nse,bse,rbi,sebi,rupee,inflation,gdp,
+    iip,pmi,repo rate,monetary policy,budget,tax,gst,earnings,profit,
+    revenue,ipo,fii,dii,mutual fund,bond yield,crude oil,brent,
+    banking,credit,loan,export,import,trade deficit,tariff,rate cut,
+    interest rate,federal reserve,fed,global cues
+
+  india_anchor_keywords: >-
+    india,indian,nifty,sensex,nse,bse,rbi,sebi,rupee,gst
+
+  research_keywords: >-
+    rbi,sebi,nse,bse,nifty,sensex,rupee,inflation,gdp,iip,pmi,
+    monetary policy,repo rate,bond yield,crude oil,brent,earnings,
+    guidance,profit,revenue,margin,credit growth,liquidity,fii,dii,
+    global cues,us markets,fed,tariff,trade
+
+  classroom_keywords: >-
+    inflation,gdp,interest rate,repo rate,rupee,crude oil,bond yield,
+    earnings,valuation,market breadth,liquidity
+
+  low_value_keywords: >-
+    opinion,editorial,podcast,quiz,photo gallery,web story,celebrity,
+    multibagger,penny stock,jackpot,operator,stock to buy today,
+    buy sell hold,target price,astrology,crypto price prediction,
+    stock market holiday,market holiday,trading holiday,closed today,
+    range-bound,city-wise rates
+
+  exclude_keywords: >-
+    horoscope,astrology,photo gallery,photos,web story,viral video,recipe,
+    celebrity,box office,cricket,football,lottery,crypto price prediction,
+    penny stock,multibagger,stock to buy today,buy sell hold,target price,
+    stock market holiday,market holiday,trading holiday,closed today,
+    are banks working,muharram holiday,bakrid holiday,eid-al-adha,
+    city-wise rates,stock market outlook today,range-bound,markets close,
+    market closed,markets closed,shut for muharram,muharram
+
+sources:
+  india:
+    - name: Google News - Indian Markets
+      type: rss
+      weight: 4
+      url: "https://news.google.com/rss/search?q=%28Nifty%20OR%20Sensex%20OR%20NSE%20OR%20BSE%20OR%20Indian%20markets%29%20%28RBI%20OR%20SEBI%20OR%20earnings%20OR%20inflation%20OR%20rupee%20OR%20crude%20OR%20FII%20OR%20DII%29%20when%3A1d&hl=en-IN&gl=IN&ceid=IN:en"
+
+    - name: Google News - RBI Macro
+      type: rss
+      weight: 5
+      url: "https://news.google.com/rss/search?q=%28RBI%20OR%20%22Reserve%20Bank%20of%20India%22%20OR%20repo%20rate%20OR%20monetary%20policy%20OR%20inflation%29%20India%20when%3A1d&hl=en-IN&gl=IN&ceid=IN:en"
+
+    - name: Google News - SEBI NSE BSE
+      type: rss
+      weight: 4
+      url: "https://news.google.com/rss/search?q=%28SEBI%20OR%20NSE%20OR%20BSE%29%20%28market%20OR%20stocks%20OR%20mutual%20fund%20OR%20ipo%20OR%20futures%20OR%20options%29%20when%3A1d&hl=en-IN&gl=IN&ceid=IN:en"
+
+    - name: Google News - India Economy Data
+      type: rss
+      weight: 4
+      url: "https://news.google.com/rss/search?q=%28India%20GDP%20OR%20India%20inflation%20OR%20IIP%20OR%20PMI%20OR%20GST%20collections%20OR%20fiscal%20deficit%20OR%20trade%20deficit%29%20when%3A1d&hl=en-IN&gl=IN&ceid=IN:en"
+
+    - name: Google News - Corporate Earnings India
+      type: rss
+      weight: 3
+      url: "https://news.google.com/rss/search?q=%28India%20earnings%20OR%20quarterly%20results%20OR%20profit%20OR%20revenue%29%20%28Nifty%20OR%20Sensex%20OR%20stocks%29%20when%3A1d&hl=en-IN&gl=IN&ceid=IN:en"
+
+  world:
+    - name: Google News - Global Market Cues
+      type: rss
+      weight: 4
+      url: "https://news.google.com/rss/search?q=%28Fed%20OR%20Federal%20Reserve%20OR%20US%20markets%20OR%20Nasdaq%20OR%20Dow%20OR%20treasury%20yields%20OR%20crude%20oil%20OR%20Brent%29%20%28India%20markets%20OR%20global%20cues%20OR%20Nifty%20OR%20Sensex%29%20when%3A1d&hl=en-IN&gl=IN&ceid=IN:en"
+
+    - name: Google News - Crude Rupee Rates
+      type: rss
+      weight: 4
+      url: "https://news.google.com/rss/search?q=%28crude%20oil%20OR%20Brent%20OR%20rupee%20OR%20dollar%20index%20OR%20US%20bond%20yields%29%20%28India%20markets%20OR%20RBI%20OR%20inflation%29%20when%3A1d&hl=en-IN&gl=IN&ceid=IN:en"

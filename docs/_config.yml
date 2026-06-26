@@ -1,0 +1,9 @@
+title: Economy Brief
+description: A daily English digest of India-first economy and market-moving news.
+url: ""
+baseurl: "/economic-news"
+timezone: Asia/Kolkata
+future: false
+
+plugins:
+  - jekyll-feed
