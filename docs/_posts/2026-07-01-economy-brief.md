@@ -1,0 +1,41 @@
+---
+layout: default
+title: "RBI Policy Hold and Global Stability Signals"
+date: 2026-06-30T22:03:10.709092+00:00
+summary: "RBI maintains repo rate and projects 6.9% GDP growth, while global markets rally on the reopening of the Strait of Hormuz"
+run_time_ist: "3:33AM"
+---
+
+<article class="digest-post">
+  <a class="back-link" href="{{ '/' | relative_url }}">Economy Brief</a>
+  <p class="post-meta">Gemini Summary: 3:33AM</p>
+
+
+<h2 class="section-title">India Markets</h2>
+
+<ul class="digest-points">
+  <li><strong>RBI Policy Stance:</strong> The RBI has kept the repo rate unchanged and projects India’s real GDP growth at 6.9% for the current fiscal year, signaling a focus on stability.<span class="source-chips"><a href="https://news.google.com/rss/articles/CBMivgFBVV95cUxOTGFSNzg0VzlJdnMwYWh2TzliX3libXhnd0pFajdsbW05R3dZU3Y5V3BjRU5uV2Q0aDVOZWZNX3dDdHpvNXpGOXRTQlNnQVRScklzNU5QdjVmV2YzOWlFVWZXMXFSZWxscFJIdFY0UHhleHZreWhkRmhqNGpCeTBYTVlpZ3AxcFN5X0h6SkFqSHJzSTBhWER6N1lkQXB3cnlLRXU4TF95ZjNWdC01XzBkTm0zOGN3RmpXc1lQSkdR?oc=5&amp;hl=en-US&amp;gl=US&amp;ceid=US%3Aen" target="_blank" rel="noopener noreferrer">I1</a></span></li>
+  <li><strong>Financial Sector Resilience:</strong> The central bank reports that India&#x27;s net international investment position improved in Q4 FY26 and maintains that banks possess sufficient shock absorbers to manage potential external risks.<span class="source-chips"><a href="https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVy12SU9URmxtalVfMnd3TC04OVVQUVZiY3U3MWFtMXlsMGJfdEd6MkYzZGh1d0FPVGJfMDdIalMybllybDdSdW9OVllCZ2ZreHpIU3JIQUEySVFmZzVTZEZmOXZlb1BYMVZUYlUzUjBKTXBHbnJSMjQtakJhSXRsN0VxVzgxdHhtS3FrU1BwS21QZ1VfajhrRGtfSUtpZWt2WTg0Q3pGWGdRSnYyeEI0MlZ2aE01NURSMmstdlpoeXBFb0ZvbDNSUUtQaGp4RTlndndXVHlDQXg2OFlfdjFPWENJVQ?oc=5&amp;hl=en-US&amp;gl=US&amp;ceid=US%3Aen" target="_blank" rel="noopener noreferrer">I2</a> <a href="https://news.google.com/rss/articles/CBMizAFBVV95cUxNZzVvcGYwaGNJNS1kUng5QnVibXBuR2NuOHprX2dpa2RDQWlVUmxCZXl4ZzFPdzFLUjV4S2NRSVVVSzN2Z3hIbEdmek9XMzhhNU80RmFuT0xYWm5HeFFwM09qZFBxZlBBcWdxTTQ3bTBJWlJ5S1dwZzZwWWtaM3ZjYzdvNHhhOFR5TzdLSXVia3VUMjNLOE1XaHBwUXRuRFlhajlxM0wwU1VjdHYwRjdVdDdDZU14a3UzNGFYanRaSFFwU3NqWE9kbXpRd3jSAcwBQVVfeXFMTWc1b3BmMGhjSTUtZFJ4OUJ1Ym1wbkdjbjh6a19naWtkQ0FpVVJsQmV5eGcxT3cxS1I1eEtjUUlVVUszdmd4SGxHZnpPVzM4YTVPNEZhbk9MWFpuR3hRcDNPamRQcWZQQXFncU00N20wSVpSeUtXcGc2cFlrWjN2Y2M3bzR4YThUeU83S0l1Ymt1VDIzSzhNV2hwcFF0bkRZYWo5cTNMMFNVY3R2MEY3VXQ3Q2VNeGt1MzRhWGp0WkhRcFNzalhPZG16UXd4?oc=5&amp;hl=en-US&amp;gl=US&amp;ceid=US%3Aen" target="_blank" rel="noopener noreferrer">I3</a> <a href="https://news.google.com/rss/articles/CBMi0AFBVV95cUxPcnBWWlVaaC1Za0dWZkJoUVJkeDB6ZnQxZy1tQld2U0Mtay1PRnJSTHZscUxaVGQtQnlZaVlJNWdnM2xvWnV3SFM2MWEwdzhlTEVJUVU5eWEzcmlSdVhEMjJqcWppQnFTTHJ5RzRyNTlwc0V3RWRoRzhfd2JreGQyXzV6NU9GaGJuSWpqVmh4QkdlYzlzMXRnbUtWSDIxc2k3VHlSVl8tanV1UHIzUmNVTnQxUmdsSlVYVGphVjNIUFZnSndvQ2dzNm0tZmk5dnA00gHQAUFVX3lxTE9ycFZaVVpoLVlrR1ZmQmhRUmR4MHpmdDFnLW1CV3ZTQy1rLU9GclJMdmxxTFpUZC1CeVlpWUk1Z2czbG9adXdIUzYxYTB3OGVMRUlRVTl5YTNyaVJ1WEQyMmpxamlCcVNMcnlHNHI1OXBzRXdFZGhHOF93Ymt4ZDJfNXo1T0ZoYm5JampWaHhCR2VjOXMxdGdtS1ZIMjFzaTdUeVJWXy1qdXVQcjNSY1VOdDFSZ2xKVVhUamFWM0hQVmdKd29DZ3M2bS1maTl2cDQ?oc=5&amp;hl=en-US&amp;gl=US&amp;ceid=US%3Aen" target="_blank" rel="noopener noreferrer">I4</a></span></li>
+</ul>
+
+<h2 class="section-title">Global Cues</h2>
+
+<ul class="digest-points">
+  <li><strong>Geopolitical Relief:</strong> Global equity markets have surged following the announcement that the Strait of Hormuz has reopened, potentially easing concerns regarding energy supply chains.<span class="source-chips"><a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxQLVBpZjZsQUU4cFVWU0JDTkl5RHdIUWlOQ1FYNHZPako3YzlwUDZqdG14OGJsVDVBNURVckx3WXUxZXBaWW5LY1FIMDJfWXp6WENSdW9DWXotVE5aTDZpUFpQNV9WVktqMzZxSi16cTlwNUFjYktMWTl6cDJmMmVSY3g3VTF3aEJlQWFiYlJqM0Zla2JSb043Qkp3?oc=5&amp;hl=en-US&amp;gl=US&amp;ceid=US%3Aen" target="_blank" rel="noopener noreferrer">W2</a></span></li>
+</ul>
+
+<details class="tp-sources">
+<summary>Sources considered</summary>
+
+<ul class="source-list">
+  <li><a href="https://news.google.com/rss/articles/CBMivgFBVV95cUxOTGFSNzg0VzlJdnMwYWh2TzliX3libXhnd0pFajdsbW05R3dZU3Y5V3BjRU5uV2Q0aDVOZWZNX3dDdHpvNXpGOXRTQlNnQVRScklzNU5QdjVmV2YzOWlFVWZXMXFSZWxscFJIdFY0UHhleHZreWhkRmhqNGpCeTBYTVlpZ3AxcFN5X0h6SkFqSHJzSTBhWER6N1lkQXB3cnlLRXU4TF95ZjNWdC01XzBkTm0zOGN3RmpXc1lQSkdR?oc=5&amp;hl=en-US&amp;gl=US&amp;ceid=US%3Aen" target="_blank" rel="noopener noreferrer">[I1] RBI keeps repo rate unchanged; Projects India’s real GDP growth for current fiscal at 6.9% - News On AIR</a> News On AIR</li>
+  <li><a href="https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVy12SU9URmxtalVfMnd3TC04OVVQUVZiY3U3MWFtMXlsMGJfdEd6MkYzZGh1d0FPVGJfMDdIalMybllybDdSdW9OVllCZ2ZreHpIU3JIQUEySVFmZzVTZEZmOXZlb1BYMVZUYlUzUjBKTXBHbnJSMjQtakJhSXRsN0VxVzgxdHhtS3FrU1BwS21QZ1VfajhrRGtfSUtpZWt2WTg0Q3pGWGdRSnYyeEI0MlZ2aE01NURSMmstdlpoeXBFb0ZvbDNSUUtQaGp4RTlndndXVHlDQXg2OFlfdjFPWENJVQ?oc=5&amp;hl=en-US&amp;gl=US&amp;ceid=US%3Aen" target="_blank" rel="noopener noreferrer">[I2] India&#x27;s net international investment position improves sharply in Q4 FY26 as non-residents&#x27; claims decline: RBI - India&#x27;s News.Net</a> India&#x27;s News.Net</li>
+  <li><a href="https://news.google.com/rss/articles/CBMizAFBVV95cUxNZzVvcGYwaGNJNS1kUng5QnVibXBuR2NuOHprX2dpa2RDQWlVUmxCZXl4ZzFPdzFLUjV4S2NRSVVVSzN2Z3hIbEdmek9XMzhhNU80RmFuT0xYWm5HeFFwM09qZFBxZlBBcWdxTTQ3bTBJWlJ5S1dwZzZwWWtaM3ZjYzdvNHhhOFR5TzdLSXVia3VUMjNLOE1XaHBwUXRuRFlhajlxM0wwU1VjdHYwRjdVdDdDZU14a3UzNGFYanRaSFFwU3NqWE9kbXpRd3jSAcwBQVVfeXFMTWc1b3BmMGhjSTUtZFJ4OUJ1Ym1wbkdjbjh6a19naWtkQ0FpVVJsQmV5eGcxT3cxS1I1eEtjUUlVVUszdmd4SGxHZnpPVzM4YTVPNEZhbk9MWFpuR3hRcDNPamRQcWZQQXFncU00N20wSVpSeUtXcGc2cFlrWjN2Y2M3bzR4YThUeU83S0l1Ymt1VDIzSzhNV2hwcFF0bkRZYWo5cTNMMFNVY3R2MEY3VXQ3Q2VNeGt1MzRhWGp0WkhRcFNzalhPZG16UXd4?oc=5&amp;hl=en-US&amp;gl=US&amp;ceid=US%3Aen" target="_blank" rel="noopener noreferrer">[I3] Don&#x27;t worry, banks have shock absorbers: RBI - The Economic Times</a> The Economic Times</li>
+  <li><a href="https://news.google.com/rss/articles/CBMi0AFBVV95cUxPcnBWWlVaaC1Za0dWZkJoUVJkeDB6ZnQxZy1tQld2U0Mtay1PRnJSTHZscUxaVGQtQnlZaVlJNWdnM2xvWnV3SFM2MWEwdzhlTEVJUVU5eWEzcmlSdVhEMjJqcWppQnFTTHJ5RzRyNTlwc0V3RWRoRzhfd2JreGQyXzV6NU9GaGJuSWpqVmh4QkdlYzlzMXRnbUtWSDIxc2k3VHlSVl8tanV1UHIzUmNVTnQxUmdsSlVYVGphVjNIUFZnSndvQ2dzNm0tZmk5dnA00gHQAUFVX3lxTE9ycFZaVVpoLVlrR1ZmQmhRUmR4MHpmdDFnLW1CV3ZTQy1rLU9GclJMdmxxTFpUZC1CeVlpWUk1Z2czbG9adXdIUzYxYTB3OGVMRUlRVTl5YTNyaVJ1WEQyMmpxamlCcVNMcnlHNHI1OXBzRXdFZGhHOF93Ymt4ZDJfNXo1T0ZoYm5JampWaHhCR2VjOXMxdGdtS1ZIMjFzaTdUeVJWXy1qdXVQcjNSY1VOdDFSZ2xKVVhUamFWM0hQVmdKd29DZ3M2bS1maTl2cDQ?oc=5&amp;hl=en-US&amp;gl=US&amp;ceid=US%3Aen" target="_blank" rel="noopener noreferrer">[I4] Financial sector risks contained, but external shocks remain a concern: RBI - financialexpress.com</a> financialexpress.com</li>
+  <li><a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE4yUm0tVVBzOURMcDJ2UlU2TlM1bnhBRExhRmw3d0ZfdU16VTNxN3JZNXVYaDJlTlpnNUxpYWtncDJBYlNTMHF2b3BnZExBLXF2WVBKVXZ2Y0JCNnRxWWptVVhNaG12WXFO?oc=5&amp;hl=en-US&amp;gl=US&amp;ceid=US%3Aen" target="_blank" rel="noopener noreferrer">[I5] SAIL Share Price | Steel Authority Of India Ltd. Stock Analysis &amp; Recommendation - MarketsMojo</a> MarketsMojo</li>
+  <li><a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxQZlA2QUd1b0lSSXFWSVhuUVI3OC1xOG1CNUJkSW43ZDVSR3E2TlByZVdKNEZweXVacnVRU2ZJeHNFRG15TVVIMUFtRnZMZW83LW9zV2lJa3dTYjhWOTJJT2pzOFRYU1hMWG13allZa0N2UEVYbkE2MmN1T2wwWkhub3pTNFJ2U29zTG8wTzNOUWwyNmFSd3lR?oc=5&amp;hl=en-US&amp;gl=US&amp;ceid=US%3Aen" target="_blank" rel="noopener noreferrer">[W1] Fed balance sheet runoff: What it means for Indian stocks - Value Research</a> Value Research</li>
+  <li><a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxQLVBpZjZsQUU4cFVWU0JDTkl5RHdIUWlOQ1FYNHZPako3YzlwUDZqdG14OGJsVDVBNURVckx3WXUxZXBaWW5LY1FIMDJfWXp6WENSdW9DWXotVE5aTDZpUFpQNV9WVktqMzZxSi16cTlwNUFjYktMWTl6cDJmMmVSY3g3VTF3aEJlQWFiYlJqM0Zla2JSb043Qkp3?oc=5&amp;hl=en-US&amp;gl=US&amp;ceid=US%3Aen" target="_blank" rel="noopener noreferrer">[W2] Global equity markets surge after Iran announces reopening of Hormuz | Akashvani News - News On AIR</a> News On AIR</li>
+</ul>
+
+</details>
+</article>
