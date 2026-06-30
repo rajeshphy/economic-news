@@ -5,6 +5,7 @@ settings:
   final_points_total: 5
   max_groups_per_section: 10
   min_group_score: 3
+  direct_link_workers: 8
 
   require_ist_today: true
   max_age_hours: 30
@@ -41,12 +42,28 @@ settings:
     inflation,gdp,interest rate,repo rate,rupee,crude oil,bond yield,
     earnings,valuation,market breadth,liquidity
 
+  investment_priority_keywords: >-
+    rbi,monetary policy,repo rate,inflation,gdp,iip,pmi,rupee,bond yield,
+    crude oil,brent,sebi,nse,bse,earnings,profit,revenue,margin,guidance,
+    fii,dii,mutual fund,credit growth,liquidity,fiscal deficit,trade deficit,
+    gst collections,bank credit,deposit growth,forex reserves
+
+  market_impact_keywords: >-
+    rises,falls,gains,slides,jumps,drops,weakens,strengthens,cuts,hikes,
+    approves,notifies,curbs,eases,raises,lowers,beats,misses,expands,contracts
+
+  investment_advice_noise_keywords: >-
+    stock to buy,buy or sell,buy sell hold,target price,multibagger,
+    penny stock,hot stock,jackpot,portfolio pick,intraday call,trading setup,
+    expert recommends
+
   low_value_keywords: >-
     opinion,editorial,podcast,quiz,photo gallery,web story,celebrity,
     multibagger,penny stock,jackpot,operator,stock to buy today,
     buy sell hold,target price,astrology,crypto price prediction,
     stock market holiday,market holiday,trading holiday,closed today,
-    range-bound,city-wise rates
+    range-bound,city-wise rates,ipo allotment,allotment status,check status,
+    latest gmp,grey market premium,gmp today,registrar,kfin technologies
 
   exclude_keywords: >-
     horoscope,astrology,photo gallery,photos,web story,viral video,recipe,
@@ -55,7 +72,9 @@ settings:
     stock market holiday,market holiday,trading holiday,closed today,
     are banks working,muharram holiday,bakrid holiday,eid-al-adha,
     city-wise rates,stock market outlook today,range-bound,markets close,
-    market closed,markets closed,shut for muharram,muharram
+    market closed,markets closed,shut for muharram,muharram,ipo allotment,
+    allotment status,check status,latest gmp,grey market premium,gmp today,
+    registrar,kfin technologies
 
 sources:
   india:
@@ -84,6 +103,16 @@ sources:
       weight: 3
       url: "https://news.google.com/rss/search?q=%28India%20earnings%20OR%20quarterly%20results%20OR%20profit%20OR%20revenue%29%20%28Nifty%20OR%20Sensex%20OR%20stocks%29%20when%3A1d&hl=en-IN&gl=IN&ceid=IN:en"
 
+    - name: Google News - FII DII Flows
+      type: rss
+      weight: 4
+      url: "https://news.google.com/rss/search?q=%28FII%20OR%20DII%20OR%20foreign%20institutional%20investors%20OR%20domestic%20institutional%20investors%29%20%28Nifty%20OR%20Sensex%20OR%20Indian%20markets%29%20when%3A1d&hl=en-IN&gl=IN&ceid=IN:en"
+
+    - name: Google News - India Investment Macro
+      type: rss
+      weight: 4
+      url: "https://news.google.com/rss/search?q=%28rupee%20OR%20bond%20yield%20OR%20forex%20reserves%20OR%20bank%20credit%20OR%20GST%20collections%29%20%28India%20OR%20RBI%20OR%20markets%29%20when%3A1d&hl=en-IN&gl=IN&ceid=IN:en"
+
   world:
     - name: Google News - Global Market Cues
       type: rss
@@ -94,3 +123,8 @@ sources:
       type: rss
       weight: 4
       url: "https://news.google.com/rss/search?q=%28crude%20oil%20OR%20Brent%20OR%20rupee%20OR%20dollar%20index%20OR%20US%20bond%20yields%29%20%28India%20markets%20OR%20RBI%20OR%20inflation%29%20when%3A1d&hl=en-IN&gl=IN&ceid=IN:en"
+
+    - name: Google News - Global Rates and Risk
+      type: rss
+      weight: 4
+      url: "https://news.google.com/rss/search?q=%28Fed%20rate%20OR%20US%20inflation%20OR%20treasury%20yield%20OR%20dollar%20index%20OR%20China%20stimulus%29%20%28India%20markets%20OR%20emerging%20markets%20OR%20Nifty%20OR%20Sensex%29%20when%3A1d&hl=en-IN&gl=IN&ceid=IN:en"

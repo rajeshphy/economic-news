@@ -72,7 +72,7 @@ def filter_relevant_items(section: str, items: list[NewsItem], settings: dict) -
         return items
     relevant = []
     for item in items:
-        haystack = f"{item.title} {item.source}".lower()
+        haystack = f"{item.title} {item.source} {item.summary}".lower()
         section_match = any(keyword in haystack for keyword in keywords)
         topic_match = any(keyword in haystack for keyword in topic_keywords)
         if section == "india":
@@ -95,7 +95,7 @@ def filter_excluded_items(items: list[NewsItem], settings: dict) -> list[NewsIte
         return items
     useful = []
     for item in items:
-        haystack = f"{item.title} {item.source}".lower()
+        haystack = f"{item.title} {item.source} {item.summary}".lower()
         if not any(keyword in haystack for keyword in excluded):
             useful.append(item)
     return useful
@@ -212,11 +212,27 @@ def recency_score(group: list[NewsItem]) -> int:
     return 0
 
 
+def information_density_score(text: str) -> int:
+    score = 0
+    words = keyword_set(text)
+
+    if len(words) >= 8:
+        score += 1
+
+    if re.search(r"\b\d+(?:\.\d+)?\s*(?:%|bps|crore|lakh|million|billion|trillion|rs|₹|\$)\b", text):
+        score += 2
+
+    if re.search(r"\b(q[1-4]|fy\d{2,4}|fii|dii|rbi|sebi|nse|bse|nifty|sensex)\b", text):
+        score += 1
+
+    return min(4, score)
+
+
 def score_story_group(group: list[NewsItem], settings: dict) -> tuple[int, list[str]]:
     if not group:
         return 0, []
     section = group[0].section
-    text = " ".join(f"{item.title} {item.source}" for item in group).lower()
+    text = " ".join(f"{item.title} {item.source} {item.summary}" for item in group).lower()
     score = 0
     reasons: list[str] = []
 
@@ -262,6 +278,46 @@ def score_story_group(group: list[NewsItem], settings: dict) -> tuple[int, list[
         score += boost
         reasons.append(f"investor context +{boost}")
 
+    investment_hits = keyword_hits(
+        text,
+        configured_keywords(
+            settings,
+            "investment_priority_keywords",
+            (
+                "rbi,monetary policy,repo rate,inflation,gdp,iip,pmi,rupee,"
+                "bond yield,crude oil,brent,sebi,nse,bse,earnings,profit,"
+                "revenue,margin,guidance,fii,dii,mutual fund,credit growth,"
+                "liquidity,fiscal deficit,trade deficit,gst collections"
+            ),
+        ),
+    )
+    if investment_hits:
+        boost = min(8, investment_hits * 2)
+        score += boost
+        reasons.append(f"investment signal +{boost}")
+
+    detail_boost = information_density_score(text)
+    if detail_boost:
+        score += detail_boost
+        reasons.append(f"specific data +{detail_boost}")
+
+    market_impact_hits = keyword_hits(
+        text,
+        configured_keywords(
+            settings,
+            "market_impact_keywords",
+            (
+                "rises,falls,gains,slides,jumps,drops,weakens,strengthens,"
+                "cuts,hikes,approves,notifies,curbs,eases,raises,lowers,"
+                "beats,misses,expands,contracts"
+            ),
+        ),
+    )
+    if market_impact_hits:
+        boost = min(4, market_impact_hits)
+        score += boost
+        reasons.append(f"market impact +{boost}")
+
     if len(group) > 1:
         boost = min(3, len(group) - 1)
         score += boost
@@ -279,6 +335,22 @@ def score_story_group(group: list[NewsItem], settings: dict) -> tuple[int, list[
         penalty = min(6, low_value_hits * 3)
         score -= penalty
         reasons.append(f"low value -{penalty}")
+    advice_hits = keyword_hits(
+        text,
+        configured_keywords(
+            settings,
+            "investment_advice_noise_keywords",
+            (
+                "stock to buy,buy or sell,buy sell hold,target price,"
+                "multibagger,penny stock,hot stock,jackpot,portfolio pick,"
+                "intraday call,trading setup,expert recommends"
+            ),
+        ),
+    )
+    if advice_hits:
+        penalty = min(8, advice_hits * 4)
+        score -= penalty
+        reasons.append(f"advice noise -{penalty}")
     if len(keyword_set(text)) <= 2:
         score -= 2
         reasons.append("vague headline -2")

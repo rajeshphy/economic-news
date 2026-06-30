@@ -69,7 +69,7 @@ def gemini_summary(items: list[NewsItem], api_key: str, points_total: int, setti
     max_points = min(5, points_total)
     prompt_items = prompt_story_groups(items, settings)
     prompt = f"""
-Create an English daily economy and markets brief for India-focused stock-market awareness.
+Create an English daily economy and markets brief for an India-based investor.
 
 Current IST date: {current_date}
 
@@ -81,11 +81,12 @@ Rules:
 - Across both sections combined, output 0 to {max_points} significant bullet points total.
 - It is better to output fewer than {max_points} points than to include weak, duplicate, stale, or filler news.
 - Use only the supplied items.
-- Prioritize RBI, inflation, GDP, rupee, crude oil, bond yields, SEBI/NSE/BSE rules, earnings, sector policies, FII/DII flows, and global cues affecting Indian markets.
+- Prioritize market-moving information for Indian investments: RBI, inflation, GDP, rupee, crude oil, bond yields, SEBI/NSE/BSE rules, earnings, sector policy, FII/DII flows, liquidity, GST, credit data, and global cues affecting Indian assets.
 - Do not give buy/sell/hold recommendations, target prices, or personalized investment advice.
+- Prefer data-rich developments over generic market commentary, stock tips, IPO allotment/GMP/check-status stories, holiday notices, and short-lived live-update headlines.
 - Treat each candidate group as one possible story. If a group has multiple headlines, synthesize them into one coherent point.
 - End each bullet with source ids using this exact format: Sources: [I1], [I3] or Sources: [W2]
-- Format bullets as: - **Short topic:** one concise synthesized sentence explaining what happened and why it matters for markets. Sources: [I1]
+- Format bullets as: - **Short topic:** one concise synthesized sentence explaining what happened and why it matters for Indian investors. Sources: [I1]
 
 Candidate story groups:
 {prompt_items}
