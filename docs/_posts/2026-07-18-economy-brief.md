@@ -1,0 +1,42 @@
+---
+layout: default
+title: "India Market Brief: Inflation Data and RBI Policy Stance"
+date: 2026-07-18T03:41:02.832125+00:00
+summary: "June retail inflation breaches RBI targets while Governor Malhotra signals a shift toward prioritizing economic growth over price stability"
+run_time_ist: "9:11AM"
+---
+
+<article class="digest-post">
+  <a class="back-link" href="{{ '/' | relative_url }}">Economy Brief</a>
+  <p class="post-meta">Gemini Summary: 9:11AM</p>
+
+
+<h2 class="section-title">India Markets</h2>
+
+<ul class="digest-points">
+  <li><strong>Inflation and Policy:</strong> India’s retail inflation rose to 4.4% in June, exceeding the RBI’s target, even as Governor Malhotra indicated that the central bank will prioritize economic growth over inflation control.<span class="source-chips"><a href="https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZnFIejVwcU44RjRzOGQ5ckxhV3A5N1J5OVdNeWJockZLVmU1VW1jX3ZLaE5HQk1kdGw3ZmZvZGhQa3YwUEhCbGp2SWNJMmJlU19KeG9HZE9RZF9od3NFX19nandseUk5XzdpMjRWZWdFMjVLTmxvOTloX1RabWNYb1R5SzJRLUNrSExCdTJoa2QxY1ZpQ2RmVmhoSEVyNzE1WFNKRk9GYVQzZzJlVXlxcFVvNXE2aUlFdk8xMExBdEhIdGxXdmVWX3hkUHBVbWhtbUpmNFBR?oc=5&amp;hl=en-US&amp;gl=US&amp;ceid=US%3Aen" target="_blank" rel="noopener noreferrer">I1</a> <a href="https://news.google.com/rss/articles/CBMiyAFBVV95cUxPakFCWEZKQmx1aW9rOFVHeVhOakExc19GVmtwSU5Ecmd0VTJwalFNUHFDanhrNEU5amNvellRMEN0ek0ya2FYWTZpdlFnNV9hTDhxYk04NVJYeFA4Z200OE53TlljMmw0RGotTFdxSS1HbWVSdkJIa3M4NTBSNkh5TjJNY2w5VXdQaE52dzRUcXhxdEFjRjhUUHhCUS1yb3RXOFJVTkV1RkdsQ3NMa1JwN1FXb0lpQlYxR2NTdTYxVHRWaVpRQ0dSVw?oc=5&amp;hl=en-US&amp;gl=US&amp;ceid=US%3Aen" target="_blank" rel="noopener noreferrer">I4</a></span></li>
+  <li><strong>SEBI Mutual Fund Reforms:</strong> SEBI has enabled Systematic Withdrawal Plans (SWP) and Systematic Transfer Plans (STP) for mutual funds held in demat accounts, enhancing liquidity and operational ease for investors.<span class="source-chips"><a href="https://news.google.com/rss/articles/CBMihgJBVV95cUxPejQ2dzdCSGJkQm1BYUJEMU52TzNSS2lQYXlzcnBQQkVMNDRBdzRRellIekc0Tm01M2Y1ck1sTVp2aV81SlBDcndzNzh1MDFmckZpSGNmWXFVaVd3TlZENHRTLS1JYzdFeG1tT1dQTkoteDYzYUZ2YTJ6cHRUSlJsRzFscFA0V2U0VFlHbEJMN1VsbVhreEhNMklGbWpUVDFwcjlZd0VhMXl2ZVM5SXJhRWVYdTc1aENPcTJtRTVDOEtKVURITlN1NVQtc0xCWDlmRVRpX1NtTmxsRUc2aWZQRFlPRkVPWjRJTWp1R2MzQVg0YUJmVUJiYkFwNUJMZ2x0dTVQWGV3?oc=5&amp;hl=en-US&amp;gl=US&amp;ceid=US%3Aen" target="_blank" rel="noopener noreferrer">I2</a> <a href="https://news.google.com/rss/articles/CBMitAFBVV95cUxPNnBJY3k0MTNkNHVsZ1VnZHIzVV9yc3JpY0FhRUJMVjRJZzdfR2djVXY4ZVItLXFHSWxUVVUyTU0yVkx6Y1FuMWNFWnBnS1VWMTFHeFBKeTAyYUFvTUFnUEkwMEtvekhqVHd5eVBDd0VxOWpkdlhqMGxKZzJ1OGdYZ1JuVDJ3Ykd0S0xNc2JYZE50djFnMUY2LTFZdlV1Q2twNkFIOFRic3VMS2pFQ0dvd29kOWE?oc=5&amp;hl=en-US&amp;gl=US&amp;ceid=US%3Aen" target="_blank" rel="noopener noreferrer">I3</a></span></li>
+</ul>
+
+<h2 class="section-title">Global Cues</h2>
+
+<ul class="digest-points">
+  <li><strong>Currency Movement:</strong> The Indian rupee strengthened by 12 paise to close at 96.30 against the US dollar, providing a minor tailwind for domestic markets.<span class="source-chips"><a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxOZ3AzUGVFdzVNXzNhM0h4T1BSbFRGd3gxTzAtUXRoTU50RC1LRFdFeXdJLXNSR1hTNVRJdHZHT25McUtNSmZIMnNQekVWTk9PR1k1OE1GV2ZRRlVKX05WTEdNLUVHR2FGVkt0YWpuRGViZVRIY0UyWE9vSFJwT0lBbTdoM3ZiZ3FjMWZJTnlvTW03Wk5sX1dv?oc=5&amp;hl=en-US&amp;gl=US&amp;ceid=US%3Aen" target="_blank" rel="noopener noreferrer">W1</a></span></li>
+</ul>
+
+<details class="tp-sources">
+<summary>Sources considered</summary>
+
+<ul class="source-list">
+  <li><a href="https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZnFIejVwcU44RjRzOGQ5ckxhV3A5N1J5OVdNeWJockZLVmU1VW1jX3ZLaE5HQk1kdGw3ZmZvZGhQa3YwUEhCbGp2SWNJMmJlU19KeG9HZE9RZF9od3NFX19nandseUk5XzdpMjRWZWdFMjVLTmxvOTloX1RabWNYb1R5SzJRLUNrSExCdTJoa2QxY1ZpQ2RmVmhoSEVyNzE1WFNKRk9GYVQzZzJlVXlxcFVvNXE2aUlFdk8xMExBdEhIdGxXdmVWX3hkUHBVbWhtbUpmNFBR?oc=5&amp;hl=en-US&amp;gl=US&amp;ceid=US%3Aen" target="_blank" rel="noopener noreferrer">[I1] India Retail Inflation Hits 4.4% In June, Breaching RBI Target - Whalesbook</a> Whalesbook</li>
+  <li><a href="https://news.google.com/rss/articles/CBMihgJBVV95cUxPejQ2dzdCSGJkQm1BYUJEMU52TzNSS2lQYXlzcnBQQkVMNDRBdzRRellIekc0Tm01M2Y1ck1sTVp2aV81SlBDcndzNzh1MDFmckZpSGNmWXFVaVd3TlZENHRTLS1JYzdFeG1tT1dQTkoteDYzYUZ2YTJ6cHRUSlJsRzFscFA0V2U0VFlHbEJMN1VsbVhreEhNMklGbWpUVDFwcjlZd0VhMXl2ZVM5SXJhRWVYdTc1aENPcTJtRTVDOEtKVURITlN1NVQtc0xCWDlmRVRpX1NtTmxsRUc2aWZQRFlPRkVPWjRJTWp1R2MzQVg0YUJmVUJiYkFwNUJMZ2x0dTVQWGV3?oc=5&amp;hl=en-US&amp;gl=US&amp;ceid=US%3Aen" target="_blank" rel="noopener noreferrer">[I2] Holding mutual funds in a demat account? SEBI&#x27;s latest move will make SWPs and STPs much easier - Upstox</a> Upstox</li>
+  <li><a href="https://news.google.com/rss/articles/CBMitAFBVV95cUxPNnBJY3k0MTNkNHVsZ1VnZHIzVV9yc3JpY0FhRUJMVjRJZzdfR2djVXY4ZVItLXFHSWxUVVUyTU0yVkx6Y1FuMWNFWnBnS1VWMTFHeFBKeTAyYUFvTUFnUEkwMEtvekhqVHd5eVBDd0VxOWpkdlhqMGxKZzJ1OGdYZ1JuVDJ3Ykd0S0xNc2JYZE50djFnMUY2LTFZdlV1Q2twNkFIOFRic3VMS2pFQ0dvd29kOWE?oc=5&amp;hl=en-US&amp;gl=US&amp;ceid=US%3Aen" target="_blank" rel="noopener noreferrer">[I3] SEBI allows SWP, STP facilities for demat mutual funds - Magzter</a> Magzter</li>
+  <li><a href="https://news.google.com/rss/articles/CBMiyAFBVV95cUxPakFCWEZKQmx1aW9rOFVHeVhOakExc19GVmtwSU5Ecmd0VTJwalFNUHFDanhrNEU5amNvellRMEN0ek0ya2FYWTZpdlFnNV9hTDhxYk04NVJYeFA4Z200OE53TlljMmw0RGotTFdxSS1HbWVSdkJIa3M4NTBSNkh5TjJNY2w5VXdQaE52dzRUcXhxdEFjRjhUUHhCUS1yb3RXOFJVTkV1RkdsQ3NMa1JwN1FXb0lpQlYxR2NTdTYxVHRWaVpRQ0dSVw?oc=5&amp;hl=en-US&amp;gl=US&amp;ceid=US%3Aen" target="_blank" rel="noopener noreferrer">[I4] RBI Governor Malhotra Signals Growth Priority Over Inflation - Whalesbook</a> Whalesbook</li>
+  <li><a href="https://news.google.com/rss/articles/CBMihwJBVV95cUxNMlRPRGRPVElld3I0bFNXYTN2QWYtMFRST1ZWS1RUVjFJNmdzanM1dXNJMlBsTUNEZkVGRkJyTjl2RUxvbnN5ZmN2WXlqUnNwaTBORl9rTXZyVGJUQ0tkUkl2QjVMMm5mc3hiQWJYZVlyd2x3eVBzTmtQVU1EVkVpYzU3bUgteEhRU2xhT1ZyakdBYkRyaVdOUTM0R2FoTVJzZjFsX29CU3RyUHg3VVNfZWwyV25pTklqeXlob21SMzFONWpfY3FHY1BqcURwUG1aSll6WjN6VmsySUFWdU1aR0VaRE9nRGItLWdGcVBtdzhKMDJmYU0zeFRZQjMzR21DMG9KY3dRRdIBhwJBVV95cUxNMlRPRGRPVElld3I0bFNXYTN2QWYtMFRST1ZWS1RUVjFJNmdzanM1dXNJMlBsTUNEZkVGRkJyTjl2RUxvbnN5ZmN2WXlqUnNwaTBORl9rTXZyVGJUQ0tkUkl2QjVMMm5mc3hiQWJYZVlyd2x3eVBzTmtQVU1EVkVpYzU3bUgteEhRU2xhT1ZyakdBYkRyaVdOUTM0R2FoTVJzZjFsX29CU3RyUHg3VVNfZWwyV25pTklqeXlob21SMzFONWpfY3FHY1BqcURwUG1aSll6WjN6VmsySUFWdU1aR0VaRE9nRGItLWdGcVBtdzhKMDJmYU0zeFRZQjMzR21DMG9KY3dRRQ?oc=5&amp;hl=en-US&amp;gl=US&amp;ceid=US%3Aen" target="_blank" rel="noopener noreferrer">[I5] Banks seek RBI clarity on collateral-free loans up to Rs 20 lakh for small businesses - The Economic Times</a> The Economic Times</li>
+  <li><a href="https://news.google.com/rss/articles/CBMivAFBVV95cUxOamFHV2N5V0VNUDlfWld1eTBYSm9mbGJqeWVrSEwzZkxNb013ZXpoVE1XbjB6c0xsQjRkWU52RkhraFMwWVk0MmdzeHFQd1FLYktYQndkSGhxOWo3VVhPcmJxUHpFMm44Wm12WnY3S05CZnlPZ1JaVnB5dlUxa2ZCdG4yaDN5a1gwTUgwVF94SXRYY3JnVGdncU5ob3ZEUEkwLWhNeEw3Z1dRbDFhRWVCSVJwakFBTGFmS3lLONIBwgFBVV95cUxPVm0zS19UNklzUzRYeFZLOWZCMDNjNVlxV09XSU5LNnRwMGZLcEZxVThlOHYxcEZqR0YybjRUTlJfM0Q5cWhvaWJOUXZ3Z0ljcWJ4MDF4RTA2QW5BNFBuYWl4b3VaeEQ1MFNmMHo2QlRVci11X1lDZ2psRE9MSWVMRFJyTWtUUGhNcGZDV05fSGMxWTNTR2o2MHdrV3d2R2h5eUMwWmNfMkh4cnhTcGYyZ2FjQ2IxZzZ6ZzIwRS0xWmJ5QQ?oc=5&amp;hl=en-US&amp;gl=US&amp;ceid=US%3Aen" target="_blank" rel="noopener noreferrer">[I6] Amfi wants Sebi to cut annual investor-awareness levy - livemint.com</a> livemint.com</li>
+  <li><a href="https://news.google.com/rss/articles/CBMiowFBVV95cUxNaTNEQXdxV1VXcFZIRHhKV21TUlhJVmViM0RPV3RDaDJuUFBfaS1MMkh4LXRiZnMtTXNScHN5NENLandHczVYM005VnIzLUgyWFpfcDZ5YVZhVHJ6X3puNVkzVnFiMTlXR095dklGYnhlVEJ5YTFLUHhKbkM1MnF5Y0Jpc2FzUjhXb3JmMmVFMkJpaHRBODV1d3RIaHI5WnVqTHJj?oc=5&amp;hl=en-US&amp;gl=US&amp;ceid=US%3Aen" target="_blank" rel="noopener noreferrer">[I7] Mirae Asset BSE Midcap 150 Momentum 30 ETF Portfolio - The Economic Times</a> The Economic Times</li>
+  <li><a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxOZ3AzUGVFdzVNXzNhM0h4T1BSbFRGd3gxTzAtUXRoTU50RC1LRFdFeXdJLXNSR1hTNVRJdHZHT25McUtNSmZIMnNQekVWTk9PR1k1OE1GV2ZRRlVKX05WTEdNLUVHR2FGVkt0YWpuRGViZVRIY0UyWE9vSFJwT0lBbTdoM3ZiZ3FjMWZJTnlvTW03Wk5sX1dv?oc=5&amp;hl=en-US&amp;gl=US&amp;ceid=US%3Aen" target="_blank" rel="noopener noreferrer">[W1] Rupee rises 12 paise to close at 96.30 vs US dollar - The Shillong Times</a> The Shillong Times</li>
+</ul>
+
+</details>
+</article>
